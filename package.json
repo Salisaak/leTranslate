@@ -1,0 +1,28 @@
+{
+  "name": "translation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mycli/bin/index.js",
+  "scripts": {
+    "test": "mycli\test\translate.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "trnsl"
+  ],
+  "bin": {
+    "trnsl": "mycli/bin/index.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "yargs": "^16.1.1",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
